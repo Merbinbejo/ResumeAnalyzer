@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 150vh;
+  margin: auto;
+  margin-left: 10px;
+  overflow-x: hidden;
+}
+body {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url("/pexels-n-voitkevich-5412270.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.bg-body-tertiary{
+  width: 100%;
+}
+
+.me-auto{
+  margin-left: 150vh;
+}
+
+/*start Home Component*/
+.home{
+  background-image:linear-gradient(to right, rgb(80, 10, 98), rgba(41, 6, 65, 0.6));
+  color: white;
+  padding: 20px;
+  width:95%;
+  
+}
+
+.para{
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 30px;
+}
+
+
+
+.text{
+  font-size: 70px;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  font-family:sans-serif;
+
+}
+
+.text span:nth-child(1){
+  animation-delay: 0.05s;
+}
+.text span:nth-child(2){
+  animation-delay: .1s;
+}
+.text span:nth-child(3){
+  animation-delay: .15s;
+}
+.text span:nth-child(4){
+  animation-delay: .2s;
+}
+.text span:nth-child(5){
+  animation-delay: .25s;
+}
+.text span:nth-child(6){
+  animation-delay: .3s;
+}
+.text span:nth-child(7){
+  animation-delay: .35s;
+}
+.text span:nth-child(8){
+  animation-delay: .4s;
+}
+.text span:nth-child(9){
+  animation-delay: .45s;
+}
+.text span:nth-child(10){
+  animation-delay: .5s;
+}
+.text span:nth-child(11){
+  animation-delay: .55s;
+}
+.text span:nth-child(12){
+  animation-delay: .6s;
+}
+.text span:nth-child(13){
+  animation-delay: .65s;
+}
+.text span:nth-child(14){
+  animation-delay: .7s;
+}
+.text span:nth-child(15){
+  animation-delay: .75s;
+}
+.text span:nth-child(16){
+  animation-delay: .8s;
+}
+.text span:nth-child(17){
+  animation-delay: .85s;
+}
+.text span:nth-child(18){
+  animation-delay: .9s;
+}
+
+.text span{
+  color: bisque;
+  opacity: 0;
+  display: inline-block;
+  animation: animate .5s forwards;
+  transform: translate(-300px,0) scale(0);
+  text-shadow: 3px 3px 4px rgba(0,0,0,255);
+}
+
+@keyframes animate {
+  60%{
+    transform: translate(20px,0) scale(0);
+    color: bisque;
+  }
+  80%{
+    transform: translate(20px,0) scale(1);
+    color: bisque;
+  }
+  99%{
+    transform: translate(0) scale(1.2);
+    color: #5539c4;;
+  }
+  100%{
+    transform: translate(0) scale(1);
+    color: bisque;
+    opacity: 1;
+  }
+}
+
+/*home component Ends*/
+
+/*login*/
+
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:whitesmoke;
+  width: 70vh;
+  height: 70vh;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.inputfield{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+  width: 80%;
+  margin-top: 30px;
+}
+
+.inputbox{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 80%;
+  margin-top: 15px;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button{
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+.analyzer{
+  width:70vh;
+  color: white;
+  margin-left: -90vh;
+  margin-top: 20px;
+}
+
+.registerInput{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.registerInput2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
